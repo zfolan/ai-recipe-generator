@@ -48,13 +48,11 @@ function App() {
     <div className="app-container">
       <div className="header-container">
         <h1 className="main-header">
-          Meet Your Personal
-          <br />
-          <span className="highlight">Recipe AI</span>
+          <span className="highlight">Ratatouille AI</span>
         </h1>
         <p className="description">
           Simply type a few ingredients using the format ingredient1,
-          ingredient2, etc., and Recipe AI will generate an all-new recipe on
+          ingredient2, etc., and Ratatouille AI will generate an all-new recipe on
           demand...
         </p>
       </div>
