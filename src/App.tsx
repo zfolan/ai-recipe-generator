@@ -30,6 +30,8 @@ function App() {
         ingredients: [formData.get("ingredients")?.toString() || ""],
       });
 
+      console.log(data)
+
       if (!errors) {
         setResult(data?.body || "No data returned");
       } else {
@@ -48,11 +50,11 @@ function App() {
     <div className="app-container">
       <div className="header-container">
         <h1 className="main-header">
-          <span className="highlight">Ratatouille AI</span>
+          <span className="highlight">Mai Tai</span>
         </h1>
         <p className="description">
           Simply type a few ingredients using the format ingredient1,
-          ingredient2, etc., and Ratatouille AI will generate an all-new recipe on
+          ingredient2, etc., and Mai Tai will generate an all-new recipe on
           demand...
         </p>
       </div>
